@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/SGPO-gene-protein.owl" uri="gene-protein.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/SGPO-gene-sui.owl" uri="gene-sui.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/SGPO-pheno-gene.owl" uri="pheno-gene.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/gene-pheno.owl" uri="gene-pheno.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/pr.owl" uri="sgpo-pro.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1497038092490" name="http://purl.obolibrary.org/obo/SGPO-gene-protein.owl" uri="gene-protein.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1497038092490" name="http://purl.obolibrary.org/obo/SGPO-gene-sui.owl" uri="gene-sui.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1497038092490" name="http://purl.obolibrary.org/obo/SGPO-pheno-gene.owl" uri="pheno-gene.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1497038092490" name="http://purl.obolibrary.org/obo/bfo.owl" uri="sgpo-bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1497038092490" name="http://purl.obolibrary.org/obo/gene-pheno.owl" uri="gene-pheno.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1497038092490" name="http://purl.obolibrary.org/obo/hp.owl" uri="sgpo-hp.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1497038092490" name="http://purl.obolibrary.org/obo/ogg.owl" uri="sgpo-ogg.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1497038092490" name="http://purl.obolibrary.org/obo/pr.owl" uri="sgpo-pro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1497038092490" name="http://purl.obolibrary.org/obo/ro.owl" uri="sgpo-ro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1497038092490" name="http://purl.obolibrary.org/obo/sgpo.owl" uri="sgpo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1497038092490" name="http://purl.obolibrary.org/obo/sgpo/ogsf_import.owl" uri="sgpo-ogsf.owl"/>
+    </group>
+</catalog>
