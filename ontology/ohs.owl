@@ -97,35 +97,17 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000716 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0000256 -->
 
-    <rdf:Description rdf:about="&obo;HP_0000716">
-        <rdfs:subClassOf rdf:resource="&obo;OGSF_0000000"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0100753 -->
-
-    <rdf:Description rdf:about="&obo;HP_0100753">
-        <rdfs:subClassOf rdf:resource="&obo;OGSF_0000000"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NBO_0000258 -->
-
-    <rdf:Description rdf:about="&obo;NBO_0000258">
-        <rdfs:subClassOf rdf:resource="&obo;OGSF_0000000"/>
+    <rdf:Description rdf:about="&obo;NBO_0000256">
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000708"/>
     </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NBO_0000515 -->
 
-    <owl:Class rdf:about="&obo;NBO_0000515">
-        <rdfs:subClassOf rdf:resource="&obo;OGSF_0000000"/>
-    </owl:Class>
+    <owl:Class rdf:about="&obo;NBO_0000515"/>
     
 
 

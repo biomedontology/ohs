@@ -8,10 +8,17 @@ HP
 http://purl.obolibrary.org/obo/HP_0100753 #schizophrenia
 http://purl.obolibrary.org/obo/HP_0000716 #depression
 http://purl.obolibrary.org/obo/HP_0007302 #bipolar disorder
+http://purl.obolibrary.org/obo/NBO_0000258 #bipolar disorder
+http://purl.obolibrary.org/obo/NBO_0000515 #depresssive disorder
+http://purl.obolibrary.org/obo/NBO_0000256 #mood disorder
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/HP_0000708 #behavior abnormal
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quality
+
+http://purl.obolibrary.org/obo/NBO_0000256 #mood disorder
+http://purl.obolibrary.org/obo/HP_0000708 #behavior abnormal
+
 
 [Source term retrieval setting]
 includeComputedIntermediates

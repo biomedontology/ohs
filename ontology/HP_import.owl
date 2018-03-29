@@ -259,6 +259,35 @@
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">human_phenotype</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000256 -->
+
+    <owl:Class rdf:about="&obo;NBO_0000256">
+        <rdfs:label rdf:datatype="&xsd;string">mood disorder</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000258 -->
+
+    <owl:Class rdf:about="&obo;NBO_0000258">
+        <rdfs:label rdf:datatype="&xsd;string">bipolar disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NBO_0000256"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000515 -->
+
+    <owl:Class rdf:about="&obo;NBO_0000515">
+        <rdfs:label rdf:datatype="&xsd;string">depressive disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NBO_0000256"/>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
 </rdf:RDF>
 
 
