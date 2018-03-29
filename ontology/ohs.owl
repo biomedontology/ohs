@@ -15,8 +15,8 @@
 ]>
 
 
-<rdf:RDF xmlns="&obo;sgpo.owl#"
-     xml:base="&obo;sgpo.owl"
+<rdf:RDF xmlns="&obo;ohs.owl#"
+     xml:base="&obo;ohs.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -27,24 +27,24 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:subsets="&obo;ro/subsets#">
-    <owl:Ontology rdf:about="&obo;sgpo.owl">
-        <dc:date xml:lang="en">06-09-2017</dc:date>
+    <owl:Ontology rdf:about="&obo;ohs.owl">
+        <dc:date xml:lang="en">03-28-2018</dc:date>
         <dc:subject xml:lang="en">Human population health</dc:subject>
+        <dc:description xml:lang="en">OHS I is a biomedical ontology in the area of human suicide. OHS represents various suicide genes and their associated phenotypes and related information.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <dc:description xml:lang="en">SGPO I is a biomedical ontology in the area of suicide genes and their associated phenotypes.</dc:description>
         <dc:title xml:lang="en">SGPO: Suicide Genes and Phenotype Ontology</dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.01</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.06</owl:versionInfo>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
-        <owl:imports rdf:resource="&obo;SGPO-gene-protein.owl"/>
-        <owl:imports rdf:resource="&obo;SGPO-gene-sui.owl"/>
-        <owl:imports rdf:resource="&obo;SGPO-pheno-gene.owl"/>
-        <owl:imports rdf:resource="&obo;bfo.owl"/>
-        <owl:imports rdf:resource="&obo;hp.owl"/>
-        <owl:imports rdf:resource="&obo;ogg.owl"/>
-        <owl:imports rdf:resource="&obo;gene-pheno.owl"/>
-        <owl:imports rdf:resource="&obo;pr.owl"/>
-        <owl:imports rdf:resource="&obo;ro.owl"/>
-        <owl:imports rdf:resource="&obo;sgpo/ogsf_import.owl"/>
+        <owl:imports rdf:resource="&obo;ohs/BFO_import.owl"/>
+        <owl:imports rdf:resource="&obo;ohs/HP_import.owl"/>
+        <owl:imports rdf:resource="&obo;ohs/OGG_import.owl"/>
+        <owl:imports rdf:resource="&obo;ohs/OGSF_import.owl"/>
+        <owl:imports rdf:resource="&obo;ohs/PR_import.owl"/>
+        <owl:imports rdf:resource="&obo;ohs/RO_import.owl"/>
+        <owl:imports rdf:resource="&obo;ohs/gene-pheno.owl"/>
+        <owl:imports rdf:resource="&obo;ohs/gene-protein.owl"/>
+        <owl:imports rdf:resource="&obo;ohs/gene-sui.owl"/>
+        <owl:imports rdf:resource="&obo;ohs/pheno-gene.owl"/>
     </owl:Ontology>
     
 
@@ -60,19 +60,19 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SGPO_0000002 -->
+    <!-- http://purl.obolibrary.org/obo/OHS_0000002 -->
 
-    <owl:ObjectProperty rdf:about="&obo;SGPO_0000002">
+    <owl:ObjectProperty rdf:about="&obo;OHS_0000002">
         <rdfs:label xml:lang="en">phenotype susceptible to genetically variation of</rdfs:label>
-        <obo:IAO_0000117>Oliver He, Jiahao Wang</obo:IAO_0000117>
         <obo:IAO_0000115>An object property that represents a relation between a phenotype and a genetic variation</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Jiahao Wang</obo:IAO_0000117>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SGPO_0000005 -->
+    <!-- http://purl.obolibrary.org/obo/OHS_0000005 -->
 
-    <owl:ObjectProperty rdf:about="&obo;SGPO_0000005">
+    <owl:ObjectProperty rdf:about="&obo;OHS_0000005">
         <rdfs:label>genetic variation for susceptibility to</rdfs:label>
         <obo:IAO_0000115>An object property that represents a relation betwen a genetic variation and a phenotype</obo:IAO_0000115>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
@@ -123,9 +123,9 @@
 
     <!-- http://purl.obolibrary.org/obo/NBO_0000515 -->
 
-    <rdf:Description rdf:about="&obo;NBO_0000515">
+    <owl:Class rdf:about="&obo;NBO_0000515">
         <rdfs:subClassOf rdf:resource="&obo;OGSF_0000000"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -169,37 +169,37 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SGPO_0000001 -->
+    <!-- http://purl.obolibrary.org/obo/OHS_0000001 -->
 
-    <owl:Class rdf:about="&obo;SGPO_0000001">
+    <owl:Class rdf:about="&obo;OHS_0000001">
         <rdfs:label xml:lang="en">suicide</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
         <obo:IAO_0000115>A process that acts intentionally to cause one&apos;s own death.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Jianhao Wang, Xiaofu Pan</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Suicide</obo:IAO_0000119>
+        <obo:IAO_0000117>Oliver He, Jianhao Wang, Xiaofu Pan</obo:IAO_0000117>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SGPO_0000003 -->
+    <!-- http://purl.obolibrary.org/obo/OHS_0000003 -->
 
-    <owl:Class rdf:about="&obo;SGPO_0000003">
+    <owl:Class rdf:about="&obo;OHS_0000003">
         <rdfs:label>suicide attempt</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;SGPO_0000001"/>
-        <owl:disjointWith rdf:resource="&obo;SGPO_0000004"/>
-        <obo:IAO_0000117>Jiahao Wang, Oliver He</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="&obo;OHS_0000001"/>
+        <owl:disjointWith rdf:resource="&obo;OHS_0000004"/>
         <obo:IAO_0000115>A suicide process that is attempted however does not acheive the suicide goal.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jiahao Wang, Oliver He</obo:IAO_0000117>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SGPO_0000004 -->
+    <!-- http://purl.obolibrary.org/obo/OHS_0000004 -->
 
-    <owl:Class rdf:about="&obo;SGPO_0000004">
+    <owl:Class rdf:about="&obo;OHS_0000004">
         <rdfs:label>suicide complete</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;SGPO_0000001"/>
-        <obo:IAO_0000115>A suicide process that is conducted and achieves its goal of suicide (i.e., the person under suicide is deadline).</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="&obo;OHS_0000001"/>
         <obo:IAO_0000117>Jiahao Wang, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A suicide process that is conducted and achieves its goal of suicide (i.e., the person under suicide is deadline).</obo:IAO_0000115>
     </owl:Class>
 </rdf:RDF>
 

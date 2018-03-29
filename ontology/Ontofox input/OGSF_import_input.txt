@@ -1,15 +1,14 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/sgpo/HP_import.owl
+http://purl.obolibrary.org/obo/ohs/OGSF_import.owl
 
 [Source ontology]
-HP
+OGSF
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/HP_0100753 #schizophrenia
-http://purl.obolibrary.org/obo/HP_0000716 #depression
-http://purl.obolibrary.org/obo/HP_0007302 #bipolar disorder
+http://purl.obolibrary.org/obo/OGSF_0000000 #genetic susceptibility
 
 [Top level source term URIs and target direct superclass URIs]
+
 
 [Source term retrieval setting]
 includeAllIntermediates

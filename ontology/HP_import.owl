@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;ohs/HP_import.owl#"
+     xml:base="&obo;ohs/HP_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="&obo;ohs/HP_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="&dc;date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasAlternativeId">
+        <rdfs:label rdf:datatype="&xsd;string">has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref">
+        <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace">
+        <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000708 -->
+
+    <owl:Class rdf:about="&obo;HP_0000708">
+        <rdfs:label rdf:datatype="&xsd;string">Behavioral abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An abnormality of mental functioning including various affective, behavioural, cognitive and perceptual abnormalities.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Behavioral abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Behavioral changes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Behavioral disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Behavioral disturbances</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Behavioral problems</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Behavioral symptoms</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Behavioral/psychiatric abnormalities</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Behavioural/Psychiatric abnormality</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">HP:0000708</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">HP:0000715</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">HP:0002368</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">HP:0002456</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D000066553</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001526</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Psychiatric disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Psychiatric disturbances</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:25786006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:277843001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS:C0004941</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS:C0233514</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">human_phenotype</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000716 -->
+
+    <owl:Class rdf:about="&obo;HP_0000716">
+        <rdfs:label rdf:datatype="&xsd;string">Depressivity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0031466"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Depression</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Depressive disorder</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Frequent feelings of being down, miserable, and/or hopeless; difficulty recovering from such moods; pessimism about the future; pervasive shame; feeling of inferior self-worth; thoughts of suicide and suicidal behavior.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">HP:0000716</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D003866</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:21061000119107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:35489007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:78667006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS:C0011581</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">human_phenotype</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007302 -->
+
+    <owl:Class rdf:about="&obo;HP_0007302">
+        <rdfs:label rdf:datatype="&xsd;string">Bipolar affective disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0031466"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Bipolar disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">HP:0000755</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">HP:0007302</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D001714</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:13746004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS:C0005586</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">human_phenotype</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031466 -->
+
+    <owl:Class rdf:about="&obo;HP_0031466">
+        <rdfs:label>Impairment in personality functioning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000708"/>
+        <dc:date rdf:datatype="&xsd;dateTime">2017-09-17T16:30:45Z</dc:date>
+        <dc:creator rdf:datatype="&xsd;string">peter</dc:creator>
+        <rdfs:comment>The emergence of the self in childhood and adolescence is based on experience and perception, which then becomes organized into identity, which organizes further experience and perception. Identity is related to the individual&apos;s selfsameness and continuity in time.</rdfs:comment>
+        <obo:IAO_0000115>A maladaptive personality trait characterized by moderate or greater impairment in personality (self /interpersonal) functioning.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100753 -->
+
+    <owl:Class rdf:about="&obo;HP_0100753">
+        <rdfs:label rdf:datatype="&xsd;string">Schizophrenia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;HP_0000708"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2011-06-07T09:53:08Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A mental disorder characterized by a disintegration of thought processes and of emotional responsiveness. It most commonly manifests as auditory hallucinations, paranoid or bizarre delusions, or disorganized speech and thinking, and it is accompanied by significant social or occupational dysfunction. The onset of symptoms typically occurs in young adulthood, with a global lifetime prevalence of about 0.3-0.7%.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">HP:0100753</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MSH:D012559</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="&xsd;string">Positive symptoms, such as delusions and hallucinations (especially of voices), are common, and any Schneiderian first-rank symptoms are particularly indicative of the illness. Negative symptoms include social withdrawal, impairment of ego boundaries, and loss of energy and initiative. Schizophrenia is diagnosed only if symptoms persist for at least one month. The illness can spontaneously remit, run a course with infrequent or frequent relapses, or become chronic. The prognosis has improved with antipsychotic drugs and with vigorous psychological and social management and rehabilitation. The many causes include genetic factors, environmental stress, and various triggering factors.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:191526005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">SNOMEDCT_US:58214004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS:C0036341</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">doelkens</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">human_phenotype</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="&obo;hp.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

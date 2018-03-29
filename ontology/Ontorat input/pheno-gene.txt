@@ -34,7 +34,7 @@ edit existing classes with term IDs defined in column A
 AnnotationProperty:
 Class:
 ObjectProperty:
-'phenotype susceptible to genetic variation': <http://purl.obolibrary.org/obo/SGPO_0000002>
+'phenotype susceptible to genetic variation': <http://purl.obolibrary.org/obo/OHS_0000002>
 DataProperty:
 
 [Term URIs start with]

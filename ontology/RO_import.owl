@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ro.owl#"
-     xml:base="http://purl.obolibrary.org/obo/ro.owl"
-     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ohs/RO_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ohs/RO_import.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ro.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohs/RO_import.owl"/>
     
 
 
@@ -33,9 +32,6 @@
         <rdfs:label xml:lang="en">editor note</rdfs:label>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ro/subsets#ro-eco">
-        <rdfs:label>eco subset</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
         <rdfs:label xml:lang="en">has curation status</rdfs:label>
     </owl:AnnotationProperty>
@@ -58,7 +54,6 @@
         <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/inSubset"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -141,10 +136,10 @@
         <obo:IAO_0000118 xml:lang="en">derives_from</obo:IAO_0000118>
         <obo:IAO_0000112 xml:lang="en">this cell derives from this parent cell (cell division)</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">this nucleus derives from this parent nucleus (nuclear division)</obo:IAO_0000112>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ro/subsets#ro-eco"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0001001"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <obo:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
     </owl:ObjectProperty>
     
 
@@ -217,12 +212,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <obo:IAO_0000119 rdf:resource="http://purl.obolibrary.org/obo/ro/docs/causal-relations"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002578"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002578"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002230"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002578"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002578"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
