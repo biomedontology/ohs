@@ -1,2 +1,3 @@
-# sgpo
-SGPO: Suicide Genes and Phenotype Ontology
+# OHS
+OHS: Ontology of Human Suicide
+
