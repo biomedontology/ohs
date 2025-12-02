@@ -8,8 +8,6 @@ The He laboratory has resumed the research in 2025.
 - Xiaofu Pan
 - Shunzhou Deng
 - Jiahao Wang
-- Junguk Hur
-- Arzucan Ozgur
 - Jie Zheng
 - Leo Yeh
 - Sam Smith
