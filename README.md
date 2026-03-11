@@ -6,7 +6,7 @@ Now the OHS research has become part of the NIH-funded PHASES project:  https://
 
 ## Developers: 
 
-He Lab: 
+**University of Michigan:**'
 
 - Xiaofu Pan
 - Shunzhou Deng
@@ -16,13 +16,13 @@ He Lab:
 - Sam Smith
 - Yongqun "Oliver" He
 
-University of Florida:
+**University of Florida:**
 
 - B. Damayanthi (Daughty) Jesudas
 - Bill Duncan
 
-University at Buffalo:
+**University at Buffalo:**
 
-- John Beverly
 - Hollen N. Reischer
-- Julie C. Bowker 
+- Julie C. Bowker
+- John Beverly 
